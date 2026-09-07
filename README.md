@@ -1,15 +1,32 @@
-# MCP Closed-Book 🎓
+<div align="center">
 
-![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-orange)
-![Local Privacy](https://img.shields.io/badge/Privacy-100%25_Local-success)
+  <img src="assets/banner.png" alt="ClosedBook Logo" width="380" />
 
-A lightning-fast, local Retrieval-Augmented Generation (RAG) system built with the Model Context Protocol (MCP). This tool acts as an ultra-strict, closed-book AI assistant that helps you prepare for exams by searching directly through your PDF study materials using Hybrid Search (Semantic + BM25).
+  **Zero-Hallucination, Closed-Book Retrieval Engine via Model Context Protocol (MCP)**
 
-> [!WARNING]
-> **This software is provided for educational and study purposes only.** 
-> The creator of this project assumes no responsibility for any misuse of this software, including but not limited to academic dishonesty, cheating during live proctored exams, or violations of institutional honor codes. Please use this responsibly to aid your studying and understanding of complex material.
+  <p align="center">
+    <a href="#features">Features</a> •
+    <a href="#prerequisites">Prerequisites</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#customizing">Customization</a> •
+    <a href="#license">License</a>
+  </p>
+
+  [![Python Version](https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+  [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-FF6B6B?style=flat-square)](https://modelcontextprotocol.io/)
+  [![Local Privacy](https://img.shields.io/badge/Privacy-100%25_Local-00C853?style=flat-square)](#)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+
+</div>
+
+<br />
+
+A lightning-fast, local Retrieval-Augmented Generation (RAG) system built on the **Model Context Protocol (MCP)**. **ClosedBook** enforces authoritative, ground-truth retrieval over your local documents (PDFs, manuals, SOPs, study materials) using **Hybrid Search (Dense Semantic + BM25Okapi)**—completely cutting out hallucinations and overriding unverified model assumptions.
+
+> [!CAUTION]
+> **This software is provided for educational, research, and audit purposes only.** 
+> The creator assumes no responsibility for misuse of this software, including academic dishonesty or unauthorized use during proctored examinations. Always use responsibly.
 
 ---
 
@@ -90,7 +107,7 @@ The AI will run parallel background searches against your PDF index and immediat
 
 ---
 
-## Customizing for YOUR Exam
+## Customizing
 
 If you are forking this repo for your own exams, here is what you need to change:
 
